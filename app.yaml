@@ -11,3 +11,8 @@ handlers:
   static_files: dist/index.html
   secure: always
   upload: dist/*
+
+skip_files:
+- ^(?!dist)
+- node_modules/
+
