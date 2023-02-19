@@ -12,7 +12,4 @@ handlers:
   secure: always
   upload: dist/*
 
-skip_files:
-- ^(?!dist)
-- node_modules/
 
